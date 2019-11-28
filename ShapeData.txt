@@ -1,0 +1,8 @@
+Object		 Field I	 FieldII	 Field III	 Field IV	 Field V	 Field VI	 Field VII
+p1		 Point		 4.1  		 3.2 
+p2		 Point		 9.3  		 4.7 
+line		 Line		 4.1  		 3.2  		 9.3  		 4.7 
+p3		 Point		 5.8  		 7.3 
+triangle	 Triangle	 4.1  		 3.2  		 9.3  		 4.7  		 5.8  		 7.3 
+p		 Point		 2.5  		 8.4 
+circle		 Circle		 2.5  		 8.4  		 2.9 
