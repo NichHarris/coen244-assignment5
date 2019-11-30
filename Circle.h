@@ -1,3 +1,10 @@
+// Name: Vejay Thanamjeyasingam
+// Student ID: 40112236
+// v-jayy21@hotmail.com
+
+// Nicholas Harris - 40111093
+// harris.nicholas1998@gmail.com
+
 #pragma once
 #include "Shape.h"
 #include "Point.h"
@@ -12,7 +19,7 @@ public:
 	Point getPoint();
 
 	void setRadius(double);
-	void setPoint(Point);
+	void setPoint(double, double);
 	void print();
 
 private:

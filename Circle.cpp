@@ -1,3 +1,10 @@
+// Name: Vejay Thanamjeyasingam
+// Student ID: 40112236
+// v-jayy21@hotmail.com
+
+// Nicholas Harris - 40111093
+// harris.nicholas1998@gmail.com
+
 #include "Circle.h"
 #include <iostream>
 using namespace std;
@@ -24,8 +31,9 @@ void Circle::setRadius(double r) {
 	radius = r;
 }
 
-void Circle::setPoint(Point pt) {
-	p = pt;
+void Circle::setPoint(double x, double y) {
+	p.setX(x);
+	p.setY(y);
 }
 
 void Circle::print() {

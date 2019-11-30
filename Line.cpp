@@ -1,3 +1,10 @@
+// Name: Vejay Thanamjeyasingam
+// Student ID: 40112236
+// v-jayy21@hotmail.com
+
+// Nicholas Harris - 40111093
+// harris.nicholas1998@gmail.com
+
 #include "Line.h"
 #include <iostream>
 using namespace std;
@@ -18,12 +25,14 @@ Point Line::getPoint2() {
 	return p2;
 }
 
-void Line::setPoint1(Point pt1) {
-	p1 = pt1;
+void Line::setPoint1(double x, double y) {
+	p1.setX(x);
+	p1.setY(y);
 }
 
-void Line::setPoint2(Point pt2) {
-	p2 = pt2;
+void Line::setPoint2(double x, double y) {
+	p2.setX(x);
+	p2.setY(y);
 }
 
 void Line::print() {

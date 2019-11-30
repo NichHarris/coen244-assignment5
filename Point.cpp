@@ -1,3 +1,10 @@
+// Name: Vejay Thanamjeyasingam
+// Student ID: 40112236
+// v-jayy21@hotmail.com
+
+// Nicholas Harris - 40111093
+// harris.nicholas1998@gmail.com
+
 #include "Point.h"
 #include <iostream>
 using namespace std;
@@ -28,6 +35,7 @@ double Point::getY() {
 void Point::setY(double y) {
 	y_coor = y;
 }
+
 
 void Point::print() {
 	cout << "x coordinate: " << x_coor << endl;
